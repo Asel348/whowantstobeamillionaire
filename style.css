@@ -1,0 +1,112 @@
+/* 
+sarı: #e2a539
+*/
+body {
+  background-color: #EEFFFF !important;
+  font-family: Helvetica;
+}
+
+.container {
+  max-width: 1000px;
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #cce6ff;
+}
+
+.timer {
+  width: 100px;
+  height: 50px;
+  border: outset #aaa 3px;
+  background: #f2f2f2;
+  font-size: 30px;
+  text-align: center;
+  color: #333;
+  padding-top: 25px;
+  margin: 0 auto;
+}
+
+.question {
+  width: 800px;
+  height: 50px;
+  background-color: #000033;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  border: outset #aaa 3px;
+}
+
+.choices-table {
+  display: inline-block;
+  text-align: center;
+}
+
+.choices button {
+  text-align: left;
+  width: 400px;
+  height: 30px;
+  background: #000033;
+  color: #ffffff;
+  border: outset #aaa 3px;
+  transition: 0.5s;
+}
+
+.choice-id {
+  color: #FFFF33;
+  transition: 0.5s;
+}
+
+.prize {
+  width: 800px;
+  height: 30px;
+  background-color: #000033;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  border: outset #aaa 3px;
+}
+
+.score {
+  width: 800px;
+  height: 30px;
+  background-color: #000033;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  border: outset #aaa 3px;
+}
+
+.choices button:hover {
+  background-color: #000066;
+  color: #ffff1a;
+}
+
+.choices button:hover {
+  background-color: #000066;
+}
+
+.choices button:focus {
+  background: #e2a539;
+}
+
+.choices button:focus .choice-id {
+  color: #FFF;
+}
+
+.choices button:focus .choice-detail {
+  color: #000;
+}
+
+.approved {
+  margin: 0 auto;
+  width: 1000px;
+  height: 183px;
+  color: #33ff33;
+  font-size: 80px;
+  text-align: center;
+  background: url(https://cdn.glitch.com/ef09c5cd-bbf4-4e54-be8f-c8b18c4e7af0%2Fjeff.jfif?v=1576358404777);
+}

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "question": "This country is one of the largest wine-producing countries of the world, where wine is grown in every region of the country. Which country is this?",
+      "content": ["France", "Italy", "Germany", "Australia"],
+      "answer": 1
+    },
+    {
+      "question": "What is the name for the type of art portrait that deliberately exaggerates a person?",
+      "content": ["Environmental", "Cartooning", "Caricature", "Tribal"],
+      "answer": 2
+    },
+    {
+      "question": "Who was the first president of the United States?",
+      "content": [
+        "Abraham Lincoln",
+        "Ronald Reagan",
+        "George Washington",
+        "Ronald McDonald"
+      ],
+      "answer": 2
+    }
+  ]
+}
