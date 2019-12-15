@@ -7,7 +7,7 @@ $.getJSON("questions1.json", function (data) {
   let currentQuestionIndex = Math.floor(Math.random() * questions.length);
   let correctAnswer = questions[currentQuestionIndex].correct;
 
-  // her usedQuestions'un içinde currentQuestionIndex bulunduğunda yeni bir currentQuestionIndex oluştursun
+  // TODO: everytime currentQuestionIndex exists in usedQuestions, create a new currentQuestionIndex
 
   if (usedQuestions.includes(currentQuestionIndex)) {
     return;
