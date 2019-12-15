@@ -5,4 +5,4 @@
 - [ ] skor işini hallet
 - [ ] soruları level level ayarla
 - [ ] sorular için süre ayarla
-- [x?] aynı soruyu bidaha sormaması için kondisyon sağla
+- [?] aynı soruyu bidaha sormaması için kondisyon sağla
