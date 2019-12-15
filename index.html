@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="shortcut icon"
+      href="https://cdn.glitch.com/ef09c5cd-bbf4-4e54-be8f-c8b18c4e7af0%2Fquestionmark.png?v=1576360561893"
+    />
+    <title>Who wants to be a MILLIONAIRE?</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/jquery.js"></script>
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>
+        WELCOME TO WHO WANTS TO BE A MILLIONAIRE!
+      </h1>
+      <h2>
+        Question 1:
+      </h2>
+      <!-- <div class="timer">
+            <script type="text/javascript">
+                var clock = 0;
+                setInterval("number()", "1000");
+
+                function number() {
+                    document.getElementById("box").innerHTML = clock;
+                    clock = clock + 1;
+                }
+            </script>
+        </div> -->
+      <div class="question" id="question-value"></div>
+      <div class="choices">
+        <table class="choices-table">
+          <tbody>
+            <tr>
+              <td>
+                <button>
+                  <span class="choice-id" id="a">A: </span>
+                  <span class="choice-detail" id="choice-detail-a"></span>
+                </button>
+              </td>
+              <td>
+                <button>
+                  <span class="choice-id" id="b">B: </span>
+                  <span class="choice-detail" id="choice-detail-b"></span>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button>
+                  <span class="choice-id" id="c">C: </span>
+                  <span class="choice-detail" id="choice-detail-c"></span>
+                </button>
+              </td>
+              <td>
+                <button>
+                  <span class="choice-id" id="d">D: </span>
+                  <span class="choice-detail" id="choice-detail-d"></span>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="prize">
+          Your current prize:
+        </div>
+        <div class="score">
+          Submit your score!
+        </div>
+      </div>
+    </div>
+    <div class="approved">
+      Approved by Jeff Bezos
+    </div>
+  </body>
+</html>
