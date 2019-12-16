@@ -2,17 +2,16 @@ $.getJSON("questions1.json", function (data) {
   window.questionnaire = data;
   // console.log(window.questionnaire);
 
+  let unusedQuestions = [];
   let usedQuestions = [];
   const questions = window.questionnaire.questions;
   let currentQuestionIndex = Math.floor(Math.random() * questions.length);
   let correctAnswer = questions[currentQuestionIndex].correct;
-
-  // TODO: everytime currentQuestionIndex exists in usedQuestions, create a new currentQuestionIndex
-
-  if (usedQuestions.includes(currentQuestionIndex)) {
-    return;
-  } else {
-    usedQuestions.push(currentQuestionIndex);
+  
+  for (let i = 0; i < questions.length; i++) {
+    unusedQuestions.push(questions[i]);
+  };
+  console.log("There are " + unusedQuestions.length + " unused questions");
 
     function pickRandomQuestion() {
       // console.log(currentQuestionIndex);
@@ -30,5 +29,5 @@ $.getJSON("questions1.json", function (data) {
     }
     pickRandomQuestion();
     console.log("Used question index(es) are: " + usedQuestions);
-  }
+
 });
