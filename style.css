@@ -143,6 +143,7 @@ body {
 .choices button {
   text-align: left;
   width: 348px;
+  width: 400px;
   height: 50px;
   background: #000033;
   color: #ffffff;
