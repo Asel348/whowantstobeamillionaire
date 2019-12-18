@@ -1,3 +1,6 @@
+Oh yes, that one game you've been ~~always~~ looking for
+# TODO List:
+
 - [x] complete the styling
 - [ ] a new millionaire approves whenever client refreshes
 - [x] bring up a new question everytime
