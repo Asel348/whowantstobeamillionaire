@@ -10,12 +10,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/style.css" />
-    <script src="/jquery.js"></script>
+    <script src="/jquery/jquery.js"></script>
     <script src="/script.js" defer></script>
   </head>
 
   <body>
-    <div class="ad1"></div>
+    <div class="ad1 ad"></div>
     <div class="container">
       <h1>
         WELCOME TO WHO WANTS TO BE A MILLIONAIRE!
@@ -76,10 +76,10 @@
           </tbody>
         </table>
       </div>
-      <div class="jokers">
-        <button class="fifty"></button>
-        <button class="phone"></button>
-        <button class="audience"></button>
+      <div class="joker_main">
+        <button class="joker fifty"></button>
+        <button class="joker phone"></button>
+        <button class="joker audience"></button>
       </div>
       <!--<div class="timer">
             <script type="text/javascript">
@@ -93,47 +93,36 @@
             </script>
         </div> -->
       <div class="main">
-        Patch 1.1
-        [New features:
-        New and updated score table,
-        Updated jokers(Now interactable),
-        FakeAd extension,
-        Bigger and blurry Jeff Bezos,
-        Updated design of visual units]
-        Have fun coding! 
-        - Arda
-        
-        
-        
+        <div class="main_img"></div>
       </div>
       <div class="question" id="question-value"></div>
       <div class="choices">
-        <table class="choices-table">
+        <table id="choices-table" class="choices-table">
           <tbody>
             <tr>
               <td>
-                <button>
-                  <span class="choice-id" id="a">A: </span>
+                <button id="0">
+                  <span class="choice-id">A: </span>
                   <span class="choice-detail" id="choice-detail-a"></span>
                 </button>
               </td>
               <td>
-                <button>
-                  <span class="choice-id" id="b">B: </span>
+                <button id="1">
+                  <span class="choice-id">B: </span>
                   <span class="choice-detail" id="choice-detail-b"></span>
                 </button>
               </td>
             </tr>
             <tr>
               <td>
-                <button>
-                  <span class="choice-id" id="c">C: </span>
+                <button id="2">
+                  <span class="choice-id">C: </span>
                   <span class="choice-detail" id="choice-detail-c"></span>
                 </button>
               </td>
               <td>
-                <button>
-                  <span class="choice-id" id="d">D: </span>
+                <button id="3">
+                  <span class="choice-id">D: </span>
                   <span class="choice-detail" id="choice-detail-d"></span>
                 </button>
               </td>
@@ -145,7 +134,7 @@
         </div>
       </div>
     </div>
-    <div class="ad2"></div>
+    <div class="ad2 ad"></div>
     <div class="approved">
       Approved by Jeff Bezos
     </div>
