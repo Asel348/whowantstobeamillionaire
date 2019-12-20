@@ -1,4 +1,4 @@
-## Patch 0.1.0
+## Patch 0.1
 
 **This project was created! Yay!!!**
 
@@ -10,7 +10,7 @@
 
 Have fun coding! - Arda
 
-## Patch 0.1.2
+## Patch 0.2
 
 **Updated features:** When you make a selection, you can see if it's the true answer or not, removed ads (because we love you), bigger and **BETTER** Jeff Bezos, performance improvements
 
